@@ -202,27 +202,26 @@
   }
   
   
-
-  /* contact styles */
-.contact-info-item {
-    display: flex;
-  }
   
-  .contact-info-icon {
-    width: 50px;
-    height: 50px;
-    background-color: var(--accent);
-    border-radius: 50%;
+  .contact-info-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 0.5rem;
-    margin-bottom: 1rem;
+    text-align: center;
   }
   
-  .contact-form form {
+  .contact-info-item {
+    margin: 0 20px; /* Adjust the margin as needed */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    size: 200px;
+  }
+  
+  .contact-info-data {
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
   
   input,
@@ -268,22 +267,25 @@
     -ms-transform: scale(2);
     -o-transform: scale(2);
 }
-
-.socials-info-item {
-  display: flex;
-  align-items: center;
-  gap: 10px; /* Adjust the gap between icons as needed */
-}
-
-.socials-info-icon {
-  font-size: 24px; /* Adjust the icon size as needed */
-  color: #333; /* Adjust the icon color as needed */
+.hero-info {
+  text-align: center;
 }
 .socials-container {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
-  width: 100%;
+  margin-top: 10px; /* Adjust the margin as needed */
+}
+
+.socials-info-item {
+  margin: 0 10px; /* Adjust the margin as needed */
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.socials-info-icon {
+  font-size: 24px;
 }
 
 #last{ 
@@ -291,8 +293,9 @@
   height: auto; 
   justify-content: center; 
   } 
-  .full{ 
-  width: 80%; 
+  
+.full{ 
+width: 80%; 
   display: inline-block; 
   margin:2%; 
   margin-left: 10%; 
